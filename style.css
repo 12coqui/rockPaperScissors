@@ -1,0 +1,29 @@
+h1{
+    color: green;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 175px;
+} 
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    font-size: 2em;
+    margin-top: 1em;
+    border: red solid;
+    background-color: rgb(236, 226, 226);
+}
+
+.rock, .paper, .scissor {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border: solid green;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
