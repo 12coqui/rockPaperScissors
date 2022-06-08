@@ -1,7 +1,7 @@
-h1{
+/* h1{
     color: green;
     text-align: center;
-}
+} */
 
 img {
     height: auto;
@@ -16,6 +16,7 @@ img {
     margin-top: 1em;
     border: red solid;
     background-color: rgb(236, 226, 226);
+    flex-wrap: wrap;
 }
 
 .rock, .paper, .scissor {

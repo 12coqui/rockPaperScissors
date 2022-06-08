@@ -98,8 +98,38 @@ carrito.forEach ( (loco) => {
     console.log(loco)
 }) */
 
+const body = document.querySelector('body')
+const redText = document.createElement('p')
+const heading = document.createElement('h3')
+const contenedor = document.createElement('div')
+const headingOne = document.createElement('h1')
+const meToo = document.createElement('p')
+
+redText.textContent= 'Hey i\'m red'
+redText.setAttribute('style', 'color: red')
+heading.textContent= 'i\'m a blue h3'
+heading.setAttribute('style', 'color: blue')
+contenedor.setAttribute('style', 'border: solid black; background: pink')
+headingOne.textContent= 'i\'m in a div'
+meToo.textContent = 'Me too!'
+
+contenedor.appendChild(headingOne)
+contenedor.appendChild(meToo)
+body.appendChild(contenedor)
+body.appendChild(redText)
+body.appendChild(heading)
 
 
+
+/* 
+container.appendChild(div)
+console.log(container)
+div.id = 'newDiv'
+newDiv = document.querySelector('#newDiv')
+newDiv.innerHTML = '<input type="text" name="" id=""></input>'
+newDiv.style.color = 'blue'
+newDiv.style.fontSize = '60px'
+ */
 
 
 
